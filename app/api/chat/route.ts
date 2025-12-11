@@ -22,7 +22,7 @@ export async function POST(request: NextRequest) {
 
     // Reemplaza con tu endpoint real
     const backendResponse = await fetch(
-      "http://api.gisee.lat/api/esp32/interact",
+      "https://api.gisee.lat/api/esp32/interact",
       {
         method: "POST",
         body: backendFormData,
